@@ -35,7 +35,7 @@ DB_PASSWORD=your_password
 
 ### 方法2：直接修改代码
 
-在 `app.py` 中修改 `DATABASE_CONFIG` 字典：
+在 `export_table structure_to_models.py` 中修改 `DATABASE_CONFIG` 字典：
 
 ```python
 DATABASE_CONFIG = {
@@ -52,7 +52,7 @@ DATABASE_CONFIG = {
 ### 基本使用
 
 ```bash
-python app.py
+python export_table structure_to_models.py
 ```
 
 ### 编程方式使用
